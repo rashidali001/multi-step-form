@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(229, 24%, 87%);
+    font-family: 'Ubuntu', sans-serif;
+}
+.side{
+    width: 100%;
+    height: 30vh;
+    background-image: url('/assets/images/bg-sidebar-mobile.svg');
+    background-size: cover;
+    background-position: center;
+}
+.footer-mobile{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 15px 7px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: hsl(0, 0,100%);
+}
+.footer-mobile > a{
+    text-decoration: none;
+    padding: 10px 12px;
+    color: #fff;
+    border-radius: 5px;
+    background-color: hsl(213, 96%, 18%);
+    font-weight: 400;
+}
