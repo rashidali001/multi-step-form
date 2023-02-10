@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   <!--Custom style-->
   <link rel="stylesheet" href="./style/main.css">
+  <link rel="stylesheet" href="./style/media.css">
   <!--Ubuntu Font styles-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -20,33 +21,46 @@
 <body>
 
   <!--Mobile First-->
+  <div class="large-screens">
+
+  
   <div class="side">
+    <img src="" alt="side bar image" id="sidebar">
   </div>
-  <div class="main">
-    <div class="counter">
-      <a href="#">1</a>
-      <a href="#">2</a>
-      <a href="#">3</a>
-      <a href="#">4</a>
+  <div class="side-second">
+    <div class="main">
+      <div class="counter">
+        <a href="/index.html">1</a>
+        <a href="/plan.html">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+      </div>
+      <div class="form">
+        <p class="title">Personal info</p>
+        <p class="description">Please provide your name, email address, and phone number.</p>
+        <form action="">
+          <label for="name">Name</label>
+          <input type="text" name="name" id="name" placeholder="e.g. Stephen King">
+          <label for="email">Email Address</label>
+          <input type="email" placeholder="e.g. stephenking@lorem.com">
+          <label for="phone-number">Phone Number</label>
+          <input type="number" placeholder="e.g. +1 234 567 890">
+        </form>
+      </div>
     </div>
-    <div class="form">
-      <p class="title">Personal info</p>
-      <p class="description">Please provide your name, email address, and phone number.</p>
-      <form action="">
-        <label for="name">Name</label>
-        <input type="text" name="name" id="name" placeholder="e.g. Stephen King">
-        <label for="email">Email Address</label>
-        <input type="email" placeholder="e.g. stephenking@lorem.com">
-        <label for="phone-number">Phone Number</label>
-        <input type="number" placeholder="e.g. +1 234 567 890">
-      </form>
+    <div class="footer-desktop">
+      <a href="/plan.html">Next Step</a>
     </div>
+  </div>
+  
   </div>
   
 
   <div class="footer-mobile">
-    <a href="#">Next Step</a>
+    <a href="/plan.html">Next Step</a>
   </div>
+
+
 
 
   <!--Custom script-->

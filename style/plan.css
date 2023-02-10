@@ -31,3 +31,11 @@ p.plan-offer{
     font-weight: 300;
     font-size: 10px;
 }
+/* Go Back */
+div.others{
+    justify-content: space-between !important;
+}
+a.back{
+    background-color: transparent !important;
+    color: hsl(231, 11%, 63%) !important;
+}
